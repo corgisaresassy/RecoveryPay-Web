@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecoveryPay</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/Favicon/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Noto+Sans:wght@300&family=Open+Sans:ital,wght@0,500;0,700;1,400&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://app.termly.io/embed.min.js" data-auto-block="on" data-website-uuid="816bfc88-9dc2-44bb-beb1-d75c19c7e28e" ></script>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img class="navbarlogo" src="images/logofiles/RecoveryPayLogo.png" alt="RecoveryPay Logo"></a>
+        <ul class="navbar">
+            <li><a href="#about">What Is RecoveryPay</a></li>
+            <li><a href="#patients">Patients</a></li>
+            <li><a href="providers.html">Providers</a></li>
+            <li><a class="button" id="paynow" target="_blank" href="https://buy.stripe.com/test_eVa4hh93p1nh2XeaEE">Pay Now</a></li>
+        </ul>
+        <div class="navbuttoncontainer">
+            <div class="mobilenav">
+                <a target="_blank" href="https://buy.stripe.com/test_eVa4hh93p1nh2XeaEE"><em>Pay Now</em></a>
+                <a href="index.html#about">What Is RecoveryPay</a>
+                <a href="index.html#patients">Patients</a>
+                <a href="#">Providers</a>
+            </div>
+            <div class="navbutton"></div>
+            <!-- <div class="navbutton"></div>
+            <div class="navbutton"></div> -->
+        </div>
+
+    </header>
+    <main>
+        <!-- Image overlay div -->
+        <div class="overlay">
+            <h1 class="overlaytext">Helping Recovery Centers and Patients</h1>
+            <a target="_blank" href="https://buy.stripe.com/test_eVa4hh93p1nh2XeaEE"><p class="button overlaybutton">Pay Your Bill Today</p></a>
+        </div>
+        <div class="textbox postfadegrey" id="patients">
+            <h3 class="subheader"> Did you receive a statement in the mail?</h3>
+            <h2 class="textheader">Paying Your Bill</h2>
+            <p class="underheader">
+                RecoveryPay connects addiction treatment facilities and their patients. We mail statements on behalf of addiction treatment centers to patients. If you have questions about your statement, please call your provider directly.
+             </p>
+            <div class="columnholder">
+                <div class="columnof3" style="border:0;">
+                    <h3 class="columnheader">How To Pay</h3>
+                    RecoveryPay accepts all major credit and debit cards. Paying is as simple as clicking on the <a target="_blank" class="inlinelink" href="https://buy.stripe.com/test_eVa4hh93p1nh2XeaEE">pay now</a> button at the top of the page. We will automatically forward the payment to your facility and ensure your payment is reconciled. Please allow up to two weeks for processing. You may receive additional statements during the processing period.
+                    <br><br>
+                    Once you've paid your bill, you will receive a final statement in the mail confirming your payment and that your balance has been cleared. To the extent you have questions or concerns on your bill, please reach out directly to your treatment provider. Their information is included at the top of your statement should you have questions.
+                </div>
+                <div class="columnof3">
+                    <h3 class="columnheader">Understanding Your Bill</h3>
+                    <!-- I ultimately want to include a link here to a diagram of a statement -->
+                    Your statement was generated using the information provided by your treatment provider. Within the statement you will find:
+                    <ul class="sublist">
+                        <li><p>The name, address and phone number of your rendering provider</p></li>
+                        <li><p>The services provided by your rendering provider</p></li>
+                        <li><p>The amounts paid by your insurance company for these services</p></li>
+                        <li><p>The amounts remaining which you owe, these are typically composed of your deductible, co-pay, or co-insurance</p></li>
+                    </ul>
+                </div>
+                <div class="columnof3"> 
+                    <h3 class="columnheader">Why Do I Have To Pay?</h3>
+                    As part of your insurance coverage, you are responsible for paying for services until your deductible is met, paying any co-pays associated with your service and any co-insurance amounts. Without these your insurance company would not typically offer coverage at all.
+                    <br><br>
+                    Our goal is to help your treatment provider contact you about these amounts and receive payment as required by law. If you are unable to pay today, please contact your facility directly to discuss a payment plan.
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <h2 class="bannertext">You've received a statement because your treatment provider is seeking payment for your treatment. 
+                <br><br>
+                Pay today to avoid escalation.
+                </h2>
+        </div>
+        <div class="postfadegrey" id="about">
+            <h3 class="subheader">What is RecoveryPay?</h3>
+            <h2 class="textheader">RecoveryPay and You</h2>
+            <p id="insurancesubheader" class="underheader bottomblueborder">
+                RecoveryPay works on behalf of your treatment provider to help ensure you receive your statement and understand what it entails. We work to ensure your sobriety team is able to continue treating patients like you in the future! 
+            </p>
+            <div class="flexbox">
+                <div class = "imagebar textboxleft">
+                    <img alt="Blue Cross Blue Shield Logo" src="images/bcbslogo.png">
+                    <img alt="Aetna Logo" src="images/aetnalogocrop.png">
+                    <img alt="Cigna Logo" src="images/cignalogo.png">
+                    <img alt="United Logo" src="images/unitedlogo.png">
+                </div>
+                <!--put images and text side by side. Left image and right content. -->
+                <div class="contentright">
+                    <p class="textboxcontent">
+                        Once you've completed treatment and your insurance company has paid their portion of your bill, your treatment center is required by law to seek payment for your portion. RecoveryPay helps treatment centers connect with patients and ensure legal compliance and receive payment.
+                        <br><br>
+                        If you have any questions about your bill or why you are receving one, please contact the facility listed on your statement for more details.
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="flexbox postfadegrey">
+            <div class="flexcard">
+                <img alt="Small Coffee Mug" class="flexcardimg" src="images/coffee.svg">
+                <h4>What Does This Statement Mean?</h4>
+                <p>
+                    Your insurance company has indicated that you are personally responsible for some amount of the total bill. The statement you received lists the services you received and the amount you owe. Please pay today to prevent further action.
+                    </p>
+            </div>
+            <div class="flexcard">
+                <img alt="Small Cloud" class="flexcardimg" src="images/cloud.svg">
+                <h4>How Do I Pay?</h4>
+                <p>
+                    Paying is easy with RecoveryPay! You can click on the <a class="inlinelink" target="_blank" href="https://buy.stripe.com/test_eVa4hh93p1nh2XeaEE">Pay Now</a> link in the header to securely make a payment on your bill. We will work with your treatment provider to then close your account and mail you a closing statement. Once you receive a closing statement, your obligation has been met.
+                </p>
+            </div>
+            <div class="flexcard">
+                <img alt="Small Clock" class="flexcardimg" src="images/clock.svg">
+                <h4>What If I Can't Pay Today?</h4>
+                <p>
+                    If you believe there's a mistake on your bill, the amount you owe, or need more time to pay, we suggest you reach out directly to the treatment center listed on your billing statement to discuss your bill or a payment plan.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="listoflists">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">What Is RecoveryPay</a></li>
+            <li><a href="#patients">Patients</a></li>
+            <li><a href="providers.html">Providers</a></li>
+            <li><a target="_blank" href="https://buy.stripe.com/test_eVa4hh93p1nh2XeaEE">Pay Now</a></li>
+            <li><a href="#" onclick="window.displayPreferenceModal();return false;" id="termly-consent-preferences">Consent Preferences</a></li>
+            <li><a href="privacy.html">Terms and Privacy</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

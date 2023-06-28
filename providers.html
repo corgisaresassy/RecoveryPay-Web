@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecoveryPay</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/Favicon/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Noto+Sans:wght@300&family=Open+Sans:ital,wght@0,500;0,700;1,400&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <a href="index.html"><img class="navbarlogo" src="images/logofiles/RecoveryPayLogo.png" alt="RecoveryPay Logo"></a>
+        <ul class="navbar">
+            <li><a href="index.html#about">What Is RecoveryPay</a></li>
+            <li><a href="index.html#patients">Patients</a></li>
+            <li><a href="#">Providers</a></li>
+            <li><a class="button" id="paynow" target="_blank" href="https://buy.stripe.com/test_eVa4hh93p1nh2XeaEE">Pay Now</a></li>
+        </ul>
+        <div class="navbuttoncontainer">
+            <div class="mobilenav">
+                <a target="_blank" href="https://buy.stripe.com/test_eVa4hh93p1nh2XeaEE"><em>Pay Now</em></a>
+                <a href="index.html#about">What Is RecoveryPay</a>
+                <a href="index.html#patients">Patients</a>
+                <a href="#">Providers</a>
+            </div>
+            <div class="navbutton"></div>
+            <!-- <div class="navbutton"></div>
+            <div class="navbutton"></div> -->
+        </div>
+
+    </header>
+    <main>
+        <div class="overlay">
+            <h1 class="overlaytext">Collect Outstanding Patient Balances</h1>
+            <a href="#contact"><p class="button overlaybutton">Learn More</p></a>
+        </div>
+        <div class="textbox postfadegrey">
+            <h3 class="subheader">Better Cash Flow & Compliance</h3>
+            <h2 class="textheader">Our Collections System</h2>
+            <p class="underheader">
+                Finding a way to maintain compliance and collect on patient responsibilities can be challenging in any environment. RecoveryPay takes care of this entire process for you. From statements to collections, we have you covered!
+             </p>
+            <div class="columnholder">
+                <div class="columnof3" style="border:0;">
+                    <h3 class="columnheader">Integration</h3>
+                    RecoveryPay integrates directly into your EMR and automatically pulls patient responsibility and relevant data for you based on a customizable set of options. We then automatically generate and issue statements to patients with simple and fast payment options.
+                </div>
+                <div class="columnof3">
+                    <h3 class="columnheader">Statements</h3>
+                    RecoveryPay automatically generates, prints and mails statements based on your preferences, unique language and facility logo and style. These statements and follow up collection letters ensure patients clearly understand their responsibility and can pay quickly and easily.
+                </div>
+                <div class="columnof3"> 
+                    <h3 class="columnheader">Simple, Low Pricing</h3>
+                    RecoveryPay only charges 10% of collections plus postage and credit card fees. We are typically anywhere from 200%-400% cheaper than the competition thanks to our proprietary automation and industry experience. Contact us today to see about getting started!
+                </div>
+            </div>
+        </div>
+        <div class="flexbox postfadegrey">
+            <div class="flexcard">
+                <img alt="Small Coffee Mug" class="flexcardimg" src="images/coffee.svg">
+                <h4>What Do Patients See?</h4>
+                <!-- Should probably include a link to the example statement here too -->
+                <p>
+                   You control every aspect of the statements and associated language issued to your patient. We do not conduct high pressure collections calls or issue threatening emails. Our simple system respects the patient while maintaining compliance and collecting effectively.
+                </p>
+            </div>
+            <div class="flexcard">
+                <img alt="Small Cloud" class="flexcardimg" src="images/cloud.svg">
+                <h4>How Do I Get Paid?</h4>
+                <p>
+                    RecoveryPay passes through funds every month to ensure we can complete accurate posting before disbursement and process any necessary refunds or overpayments. Our team handles all reconciliation in house to make the process as easy as possible on you.
+                </p>
+            </div>
+            <div class="flexcard">
+                <img alt="Small Clock" class="flexcardimg" src="images/clock.svg">
+                <h4>How Do I Get Started?</h4>
+                <p>
+                RecoveryPay doesn't charge any set up fees or ongoing base fees. Getting started is as simple as signing the agreement, getting us access to your EMR and watching the payments roll in.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- contact div -->
+
+        <div class="gradientfade1">
+            <h3 class="subheader"> Let's Talk</h3>
+            <h2 class="textheader textheader2" id="about">Contact</h2>
+            <div id="contact" class="flexbox">
+                    <form action="https://formsubmit.co/b0d3c8b3a73fb824599bb71e50bc5cc7" method="POST">
+                        <label for="name"><br>Name: *</label><br>
+                        <input type="text" id="name" name="user_name" placeholder="Full Name" required><br><br>
+                        <label for="email">Email: *</label><br>
+                        <input type="email" id="email" name="user_email" placeholder="yourname@yourdomain.com" required><br><br>
+                        <label for="phone_number">Phone Number: *</label><br>
+                        <input type="tel" id="phone_number" name="user_phone" placeholder="(123) 456-7890" required><br><br>
+                        <label for="comments">Comments or Questions:</label><br>
+                        <textarea id="comments" name="user_comments" placeholder="Anything else we should know?"></textarea><br><br>
+                        <button class="button formbutton" type="submit">Submit</button>
+                    </form>
+                <div class="contentright" id="contactblurb">
+                    <h3 class="subheader"> Interested in Learning More?</h3>
+                    <p class="textboxcontent">
+                        Interested in working with RecoveryPay to ensure your patients receive clear billing and can make quick and easy payments? Feel free to use the contact box to reach out to us. We typically respond within 24 hours.
+                        </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul class="listoflists">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">What Is RecoveryPay</a></li>
+                <li><a href="#patients">Patients</a></li>
+                <li><a href="providers.html">Providers</a></li>
+                <li><a target="_blank" href="https://buy.stripe.com/test_eVa4hh93p1nh2XeaEE">Pay Now</a></li>
+                <li><a href="#" onclick="window.displayPreferenceModal();return false;" id="termly-consent-preferences">Consent Preferences</a></li>
+                <li><a href="privacy.html">Terms and Privacy</a></li>
+            </ul>
+        </footer>
+        </main>
+</body>
+</html>
